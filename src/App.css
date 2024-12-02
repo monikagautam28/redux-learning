@@ -1,0 +1,38 @@
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items{
+  display: flex;
+ 
+align-items: center;
+  gap :12px;
+}
+/* child selector  */
+.nav-items > *{    
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+
+
+}
+/* adding hover */
+.nav-items a:hover{
+ color :white;
+ background-color: rgba(176, 176, 200, 0.922);
+ border-radius: 5px;
+}
+.login-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vw;
+}
